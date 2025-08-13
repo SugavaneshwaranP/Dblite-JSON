@@ -93,7 +93,7 @@ export default function App() {
       {/* Navbar */}
       <nav className="bg-gradient-to-r from-purple-700 via-pink-600 to-red-500 text-white p-4 md:p-6 flex flex-col md:flex-row justify-between items-center shadow-lg sticky top-0 z-50">
         <h1 className="text-2xl md:text-3xl font-extrabold tracking-widest drop-shadow-lg cursor-default mb-2 md:mb-0">
-          📊 <span className="text-yellow-300">Survey API Gateway</span>
+          📊 <span className="text-yellow-300">API Gateway</span>
         </h1>
         <div className="flex space-x-4 md:space-x-8 text-sm md:text-lg font-semibold">
           {["Home", "Query Builder", "Visualization"].map((label) => (
@@ -209,7 +209,7 @@ export default function App() {
 
             {queryHistory.length > 0 && (
               <div className="mt-4">
-                <h3 className="text-lg font-semibold mb-2 text-gray-700">Recent Queries:</h3>
+                <h3 className="text-lg font-semibold mb-2 text-gray-700">Recent :</h3>
                 <ul className="space-y-2">
                   {queryHistory.map((historyQuery, idx) => (
                     <li key={idx}>
